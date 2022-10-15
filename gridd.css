@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+}
+.container{
+    display: grid;
+    cursor: pointer;
+    color: #FFF;
+    font-size: 20px;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+    transition: box-shadow 0.3s linear;
+    grid-template-columns: 1;
+    grid-template-rows: 50px 300px 900px 50px;
+    width: 100%;
+}
+.zone:hover{
+    box-shadow: 0 5px 15px rgba(0,0,0,0.8);
+}
+.fox{
+	background-color: green; 
+    background-image: linear-gradient(0deg, #a5c956, #56B870);
+    border-radius: 4px;
+    text-align: center;
+    align-self: center;
+}
+.bunny{
+    background-color: purple;
+    background-image: linear-gradient(0deg, #cf0404, #C655BE);
+    border-radius: 4px;
+    text-align: center;
+    align-self: center;
+    padding: 140px;
+}
+.frog{
+    background-color: purple;
+    background-image: linear-gradient(0deg, #4096ee, #60abf8, #7abcff);
+    border-radius: 4px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.lion{
+    background-color: purple;
+    background-image: linear-gradient(0deg, #febf04, #F3AAAA);
+    border-radius: 4px;
+    text-align: center;
+    align-self: center;
+    padding: 15px;
+}
+img{
+    height: 100px;
+    width: 100px;
+}
+.photos{
+    padding: 150px 100px;
+    background-color: #3f3f41;
+    margin: 20px;
+    transition: box-shadow 0.3s linear;
+}
+.photos:hover{
+    box-shadow: 0 5px 15px rgba(0,0,0,0.8);
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+li{
+    display: inline;
+    margin: 20px;
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+    color: white;
+
+}
+
+
